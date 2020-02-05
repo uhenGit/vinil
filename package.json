@@ -1,0 +1,26 @@
+{
+  "name": "vinil",
+  "version": "1.0.0",
+  "description": "vinil shop on MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "ReactJS",
+    "NodeJS"
+  ],
+  "author": "Eugene Nagornyy",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.11",
+    "multer": "^1.4.2"
+  }
+}

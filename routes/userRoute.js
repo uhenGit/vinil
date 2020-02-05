@@ -105,16 +105,4 @@ router.post("/login", (req, res) => {
   }
 });
 
-//GET admin
-router.get("/allusers", (req, res) => {
-  User.find()
-    .select("email")
-    .then(users => res.json(users))
-    .catch(err =>
-      res.status(404).json({
-        message: "No more users",
-        error: err
-      })
-    );
-});
 module.exports = router;
